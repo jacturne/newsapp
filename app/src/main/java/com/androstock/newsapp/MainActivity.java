@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             String xml = "";
 
             String urlParameters = "";
-            xml = Function.excuteGet("https://newsapi.org/v2/everything?q=fallout%204%20game&language=en&sortBy=top&apiKey="+API_KEY, urlParameters);
+            xml = Function.excuteGet("https://newsapi.org/v2/everything?q=elder scrolls summerset game&language=en&sortBy=top&apiKey="+API_KEY, urlParameters);
             return  xml;
         }
         @Override
